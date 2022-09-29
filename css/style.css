@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.squares {
+	display: flex;
+	height: calc(100vw / 3);
+}
+
+.sq-big {
+	display: flex;
+	flex-wrap: wrap;
+	width: calc(100vw / 3);
+	height: 100%;
+}
+
+.sq-small {
+	width: 50%;
+	height: 50%;
+	border: 5px solid gray;
+}
+
+.sq-center {
+	background-color: salmon;
+}
